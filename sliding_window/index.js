@@ -1,3 +1,5 @@
+// https://www.geeksforgeeks.org/window-sliding-technique/
+
 let ar = [1, 4, 2, 10, 2, 3, 1, 0, 20];
 let k = 4;
 // Brute force solution

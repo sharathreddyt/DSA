@@ -18,4 +18,9 @@ Number | Factors
 Now based on obeservation, 3 is the only factor that is largest and common for both the numbers. Thats how we calculate GCF on paper.
 
 
-#### Brute force solution
+### Euclid algorithm.
+The Euclidean Algorithm for finding GCD(A,B) is as follows:
+1. If A = 0 then GCD(A,B)=B, since the GCD(0,B)=B, and we can stop.  
+2. If B = 0 then GCD(A,B)=A, since the GCD(A,0)=A, and we can stop.  
+3. Write A in quotient remainder form (A = B⋅Q + R)
+4. Find GCD(B,R) using the Euclidean Algorithm since GCD(A,B) = GCD(B,R)
